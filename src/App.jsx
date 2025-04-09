@@ -11,9 +11,18 @@ function App() {
 
   const [newItem, setNewItem] = useState("")
 
+
   const handleSubmit = event => {
     event.preventDefault()
     alert("form inviato")
+
+    const addNewTask = event => {
+      const task = [...tasks, newTask]
+      setTask(task)
+      setNewTask("")
+
+
+    }
 
   }
 

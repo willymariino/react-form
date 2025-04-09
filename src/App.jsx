@@ -30,9 +30,15 @@ function App() {
       <h1>blog superfico</h1>
       <ul>
         {items.map((item, index) => (
-          < li key={index} > {item}</li>
+          < li key={index} >
+            {item}
+            <button onClick={() => removeItem(index)}>
+              elimina
+            </button>
+          </li>
 
         ))}
+
       </ul >
 
       <input

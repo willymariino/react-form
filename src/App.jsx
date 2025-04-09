@@ -3,18 +3,18 @@ import { useState } from 'react'
 
 
 function App() {
-  const [firstArticle, setFirstArticle] = useState("primo articolo")
-  const [secondArticle, setSecondArticle] = useState("secondo articolo")
-  const [thirdArticle, setThirdArticle] = useState("terzo articolo")
+  const items = [firstArticle, secondArticle, thirdArticle] = useState(0)
+
   return (
     <>
 
       <h1>blog superfico</h1>
       <ul>
-        <li>{firstArticle} </li>
-        <li>  {secondArticle} </li>
-        <li>  {thirdArticle} </li>
-      </ul>
+        {items.map((item, index) => (
+          < li key={index} > {item}</li>
+
+        ))}
+      </ul >
 
       <hr />
       <input type="text" value="prova" />

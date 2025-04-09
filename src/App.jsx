@@ -21,6 +21,11 @@ function App() {
 
   }
 
+  const removeItem = (indexToRemove) => {
+    const newArray = item.filter((item, index) => indexToDelete !== index)
+    setItems(newArray)
+  }
+
 
 
   return (

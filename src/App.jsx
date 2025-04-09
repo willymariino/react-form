@@ -36,7 +36,7 @@ function App() {
         {items.map((item, index) => (
           < li key={index} >
             {item}
-            <button onClick={() => removeItem(index)}>
+            <button className='delete-btn' onClick={() => removeItem(index)}>
               elimina
             </button>
           </li>
@@ -51,7 +51,7 @@ function App() {
         value={newItem}
         onChange={e => setNewItem(e.target.value)}
       />
-      <button>invia</button>
+      <button className='send-btn'>invia</button>
 
 
     </form >

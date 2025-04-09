@@ -4,13 +4,14 @@ import { useState } from 'react'
 
 function App() {
   const [firstArticle, setFirstArticle] = useState("primo articolo")
-
+  const [secondArticle, setSecondArticle] = useState("secondo articolo")
+  const [thirdArticle, setThirdArticle] = useState("terzo articolo")
   return (
     <>
 
       <h1>blog superfico</h1>
       {firstArticle}
-      {seconArticle}
+      {secondArticle}
       {thirdArticle}
 
       <hr />

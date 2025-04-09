@@ -10,9 +10,11 @@ function App() {
     <>
 
       <h1>blog superfico</h1>
-      {firstArticle}
-      {secondArticle}
-      {thirdArticle}
+      <ul>
+        {firstArticle}
+        {secondArticle}
+        {thirdArticle}
+      </ul>
 
       <hr />
       <input type="text" value="prova" />

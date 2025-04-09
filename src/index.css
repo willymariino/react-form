@@ -1,5 +1,10 @@
 button {
   margin-left: 3%;
+
+}
+
+ul {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }

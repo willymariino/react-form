@@ -39,7 +39,11 @@ function App() {
             <button className='delete-btn' onClick={() => removeItem(index)}>
               elimina
             </button>
+            {/* ho notato che se cancello dal basso verso l'alto va tutto bene, mentre se inizio dal mezzo, spariscono 
+            anche le scritte sotto, ma rimangono i pulsanti elimina */}
           </li>
+
+
 
         ))}
 

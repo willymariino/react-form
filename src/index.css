@@ -1,8 +1,22 @@
 button {
+  display: inline-block;
+  background-color: #266ac3;
+  border-radius: 35px;
+  color: #fff;
   margin-left: 3%;
   padding: 4px 8px;
   cursor: pointer;
   vertical-align: middle;
+  /* on si riesce ad allineare verticalmente i pulsanti */
+  border: none;
+}
+
+.delete-btn:hover {
+  background-color: #c92e0f;
+}
+
+.send-btn:hover {
+  background-color: #25c90f;
 }
 
 ul {

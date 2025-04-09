@@ -20,6 +20,14 @@ function App() {
   return (
     <form onSubmit={handleSubmit}>
 
+      <h1>blog superfico</h1>
+      <ul>
+        {items.map((item, index) => (
+          < li key={index} > {item}</li>
+
+        ))}
+      </ul >
+
       <input
         type='text'
         placeholder='aggiungi un articolo'
@@ -28,15 +36,6 @@ function App() {
       />
       <button>invia</button>
 
-
-
-      <h1>blog superfico</h1>
-      <ul>
-        {items.map((item, index) => (
-          < li key={index} > {item}</li>
-
-        ))}
-      </ul >
 
     </form >
   )

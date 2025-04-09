@@ -1,16 +1,21 @@
 button {
   margin-left: 3%;
-  text-align: justify;
-
+  padding: 4px 8px;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
 }
+
+
 
 li {
   display: flex;
   align-items: center;
+  width: calc((100% - 20px) /2);
 }

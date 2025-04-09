@@ -3,7 +3,11 @@ import { useState } from 'react'
 
 
 function App() {
-  const items = [firstArticle, secondArticle, thirdArticle] = useState(0)
+  const [items, setItems] = useState([
+    "primo articolo",
+    "secondo articolo ",
+    "terzo articolo"
+  ])
 
   return (
     <>

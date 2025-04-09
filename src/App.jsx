@@ -11,9 +11,9 @@ function App() {
 
       <h1>blog superfico</h1>
       <ul>
-        {firstArticle}
-        {secondArticle}
-        {thirdArticle}
+        <li>{firstArticle} </li>
+        <li>  {secondArticle} </li>
+        <li>  {thirdArticle} </li>
       </ul>
 
       <hr />

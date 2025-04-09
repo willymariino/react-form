@@ -1,5 +1,6 @@
 button {
   margin-left: 3%;
+  text-align: justify;
 
 }
 
@@ -7,4 +8,9 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
 }

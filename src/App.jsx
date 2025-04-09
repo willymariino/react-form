@@ -10,6 +10,8 @@ function App() {
 
       <h1>blog superfico</h1>
       {firstArticle}
+      {seconArticle}
+      {thirdArticle}
 
       <hr />
       <input type="text" value="prova" />

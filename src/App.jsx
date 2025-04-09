@@ -19,10 +19,12 @@ function App() {
 
       <input
         type='text'
-        value={items}
-        onChange={e => { setItems(e.target.value) }}>
-        <button>invia</button>
-      </input>
+        placeholder='aggiungi un articolo'
+        value={newItem}
+        onChange={e => setNewItem(e.target.value)}
+      />
+      <button>invia</button>
+
 
 
       <h1>blog superfico</h1>

@@ -12,42 +12,40 @@ function App() {
   const [newItem, setNewItem] = useState("")
 
 
-  const handleSubmit = event => {
-    event.preventDefault()
+  const handleSubmit = (e) => {
+    e.preventDefault()
     alert("form inviato")
 
-    const addNewTask = event => {
-      const task = [...tasks, newTask]
-      setTask(task)
-      setNewTask("")
+    setItems([...items, newItem])
+    setNewItem("")
 
-
-    }
 
   }
 
-  return (
-    <form onSubmit={handleSubmit}>
+}
 
-      <h1>blog superfico</h1>
-      <ul>
-        {items.map((item, index) => (
-          < li key={index} > {item}</li>
+return (
+  <form onSubmit={handleSubmit}>
 
-        ))}
-      </ul >
+    <h1>blog superfico</h1>
+    <ul>
+      {items.map((item, index) => (
+        < li key={index} > {item}</li>
 
-      <input
-        type='text'
-        placeholder='aggiungi un articolo'
-        value={newItem}
-        onChange={e => setNewItem(e.target.value)}
-      />
-      <button>invia</button>
+      ))}
+    </ul >
+
+    <input
+      type='text'
+      placeholder='aggiungi un articolo'
+      value={newItem}
+      onChange={e => setNewItem(e.target.value)}
+    />
+    <button>invia</button>
 
 
-    </form >
-  )
+  </form >
+)
 
 }
 

@@ -22,32 +22,32 @@ function App() {
 
   }
 
+
+
+  return (
+    <form onSubmit={handleSubmit}>
+
+      <h1>blog superfico</h1>
+      <ul>
+        {items.map((item, index) => (
+          < li key={index} > {item}</li>
+
+        ))}
+      </ul >
+
+      <input
+        type='text'
+        placeholder='aggiungi un articolo'
+        value={newItem}
+        onChange={e => setNewItem(e.target.value)}
+      />
+      <button>invia</button>
+
+
+    </form >
+  )
+
 }
-
-return (
-  <form onSubmit={handleSubmit}>
-
-    <h1>blog superfico</h1>
-    <ul>
-      {items.map((item, index) => (
-        < li key={index} > {item}</li>
-
-      ))}
-    </ul >
-
-    <input
-      type='text'
-      placeholder='aggiungi un articolo'
-      value={newItem}
-      onChange={e => setNewItem(e.target.value)}
-    />
-    <button>invia</button>
-
-
-  </form >
-)
-}
-
 
 
 export default App

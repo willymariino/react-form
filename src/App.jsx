@@ -9,7 +9,10 @@ function App() {
     "terzo articolo"
   ])
 
-  const handleSubmit = () => {
+  const [newItem, setNewItem] = useState("")
+
+  const handleSubmit = event => {
+    event.preventDefault()
     alert("form inviato")
 
   }

@@ -14,7 +14,6 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    alert("form inviato")
 
     setItems([...items, newItem])
     setNewItem("")

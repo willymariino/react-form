@@ -21,7 +21,7 @@ function App() {
       </ul >
 
       <hr />
-      <input type="text" value="prova" />
+
 
 
 

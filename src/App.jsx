@@ -3,10 +3,19 @@ import { useState } from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [firstArticle, setFirstArticle] = useState("primo articolo")
 
   return (
     <>
+
+      <h1>blog superfico</h1>
+      {firstArticle}
+
+      <hr />
+      <input type="text" value="prova" />
+
+
+
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

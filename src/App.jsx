@@ -31,23 +31,31 @@ function App() {
   return (
     <form onSubmit={handleSubmit}>
 
-      <h1>blog superfico</h1>
-      <ul>
+      <h1>to-do list</h1>
+
+      <ol className='task-card'>
+
         {items.map((item, index) => (
           < li key={index} >
-            {item}
-            <button className='delete-btn' onClick={() => removeItem(index)}>
-              elimina
-            </button>
+            <div className='task-row'>
+              {item}
+
+              <button className='delete-btn' onClick={() => removeItem(index)}>
+                elimina
+              </button>
+            </div>
             {/* ho notato che se cancello dal basso verso l'alto va tutto bene, mentre se inizio dal mezzo, spariscono 
             anche le scritte sotto, ma rimangono i pulsanti elimina */}
           </li>
 
 
 
+
         ))}
 
-      </ul >
+
+      </ol >
+
 
       <input
         type='text'

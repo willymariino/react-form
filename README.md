@@ -16,7 +16,7 @@ It implements a basic **to-do list** where users can add and remove tasks, helpi
 - **React** (19.0.0)
 - **Vite** (6.2.0)
 - **JavaScript** (ES6)
-- **CSS3**
+- **CSS3**  
 
 ## Live Demo
 [React To-Do List](https://add-title-form.netlify.app/)

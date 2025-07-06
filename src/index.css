@@ -19,7 +19,6 @@ button {
 }
 
 .task-row {
-  border: 1px solid black;
   display: grid;
   border-radius: 35px;
   min-width: 20%;

@@ -59,7 +59,7 @@ function App() {
 
       <input
         type='text'
-        placeholder='aggiungi un articolo'
+        placeholder='aggiungi una task'
         value={newItem}
         onChange={e => setNewItem(e.target.value)}
       />

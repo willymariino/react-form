@@ -1,12 +1,28 @@
-# React + Vite
+# React To-Do List Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](https://add-title-form.netlify.app/)
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple React application developed with Vite, designed to practice handling forms and dynamic state updates. 
+It implements a basic **to-do list** where users can add and remove tasks, helping reinforce concepts like `useState`, array manipulation, and event handling in React.
 
-## Expanding the ESLint configuration
+## Features
+**Add Tasks:** Type a new task into the input box and submit it to add to the list.
+**Remove Tasks:** Each task includes a delete button to remove it from the list dynamically.
+**Interactive UI:** Clean, intuitive interface designed for easy testing and modification.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **React** (19.0.0)
+- **Vite** (6.2.0)
+- **JavaScript** (ES6)
+- **CSS3**
+
+## Live Demo
+[React To-Do List](https://add-title-form.netlify.app/)
+
+## How to Run Locally
+1. Clone the repository.
+2. Install dependencies using `npm install`
+3. Start the development server using `npm run dev`
+4. Open the application in your browser at the URL provided by Vite.
